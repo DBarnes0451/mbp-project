@@ -1,0 +1,150 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1.3em;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.2em;
+}
+
+.subtitle-colour{
+    color: 595959;
+    display:inline-block;
+}
+
+.flex-container-nav {
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 2.5em;
+}
+
+ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+}
+
+li {
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    list-style-type: none;
+}
+
+.nav-links {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    min-width: 1000px;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 4em;
+}
+
+.img-column-left {
+    flex: 50% 0 0 ;
+}
+
+.img-column-right {
+    flex: 50% 0 0 ;
+}
+
+.nav-links:hover {
+    text-decoration: underline;
+}
+
+.panels {
+    border : solid 0px #FF7062;
+}
+
+.panels:hover {
+    border-width: 20px;
+}
+
+footer {
+    background-color: #FF7062;
+    padding: 1.25em;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mmu-disclaimer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-email {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    padding-top: 30px;
+    font-size: 1.25em;
+}
+
+.footer-content {
+    display: flex;
+}
+
+/*@media (min-width: 768px)  {
+    .flex-container-nav{
+    width: 100%;
+    font-size: 4em;
+    }
+    .main-title{
+        width: 100%;
+        font-size: 5em;
+    }
+    li{
+        padding-top: 2em;
+    padding-right:5em;
+    padding-bottom: 1em;
+    padding-left:5em;
+    list-style-type: none;
+    }
+    footer{
+      max-width: 100%;
+    }
+    .footer-content {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+    .footer-email {
+    font-size: 2.5em;
+    }
+    .linedin-logo {
+    height: 75px;
+    width: 90px;
+    }
+    .img-container {
+    max-width: 80%;
+    margin: auto;
+    }
+    
+  }
+
+
+/*
+font-family: 'Bebas Neue', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
