@@ -104,7 +104,7 @@ footer {
     display: flex;
 }
 
-/*@media (min-width: 768px)  {
+@media (min-width: 768px)  {
     .flex-container-nav{
     width: 100%;
     font-size: 4em;
