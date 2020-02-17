@@ -53,16 +53,13 @@ html {
 .photo-grid {
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
     padding-bottom: 1em;
   }
 
-.hover-outline
-{   outline : solid 0px #FF7062;
-    
-    
+.hover-outline{                                                      outline : solid 0px #FF7062;
 }
 
 .hover-outline:hover {
@@ -72,38 +69,35 @@ html {
 .img-1{
     padding: 5px;
     grid-column: 1/4;
-grid-row: 1/ -1;
+grid-row: 1;
 }
 
-.img-2{
+.flex-column{
+    display: flex;
+    flex-direction: column;
     padding: 5px;
     grid-column: 4/7;
     grid-row: 1;
 }
 
-.img-3{
+
+.flex-row-column{
+flex-direction: column;
+    display: flex;
+    
     padding: 5px;
-    grid-column: 4/7;
+    grid-column: 1/7;
     grid-row: 2;
 }
 
-.img-4{
-    padding: 5px;
-    grid-column: 1/7;
-    grid-row: 3;
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    grid-row: 2;
+    
 }
 
-.img-5{
-    padding: 5px;
-    grid-column: 1/4;
-    grid-row: 4;
-}
 
-.img-6{
-    padding: 5px;
-    grid-column: 4/7;
-    grid-row: 4;
-}
 
 footer {
     background-color: #FF7062;
@@ -166,34 +160,33 @@ img {
 
     .photo-grid {
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
        
       }
 
-    .img-1{
-        grid-column: 1/4;
-    grid-row: 1/ -1;
-    }
-    
-    .img-2{grid-column: 4/7;
-        grid-row: 1;}
-    
-    .img-3{grid-column: 4/7;
-        grid-row: 2;}
-    
-    .img-4{grid-column: 7/13;
-        grid-row: 1/-1;}
-    
-    .img-5{grid-column: 7/10;
-        grid-row: 2;}
-    
-    .img-6{grid-column: 10/13;
-        grid-row: 2;}
+  
 
     .hover-outline:hover {
             outline: solid 12px #FF7062;
         }
+    footer {
+            padding-left: 12em;
+            padding-right: 12em;
+            
+        }
 
+        .flex-row-column{
+           
+                grid-column: 7/13;
+                grid-row: 1;
+            }
+            
+            .flex-row{
+                display: flex;
+                flex-direction: row;
+                grid-row: 1;
+                
+            }
   }
 
 
